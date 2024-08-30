@@ -32,8 +32,8 @@ const Home = () => {
               {item}
             </span>
           ))}
+        
         </h1>
-
         <div className="flex gap-4">
           <Link to="/generate-password" className="bg-green-500 text-white py-3 px-8 rounded-md m-2 no-underline hover:underline">
             Generate Password
