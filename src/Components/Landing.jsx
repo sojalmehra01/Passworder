@@ -198,7 +198,7 @@ const Landing = () => {
 
           {password && (
             <div className="mt-5">
-              <p className="mb-3">
+              <p className="mb-3 text-gray-600">
                 Generated Password: <span className="font-mono bg-gray-100 px-2 py-1 rounded">{password}</span>
                 <button onClick={handleCopy} className="ml-3 text-blue-500 underline">Copy</button>
                 {copyMessage && <span className="text-green-500 ml-2">{copyMessage}</span>}
