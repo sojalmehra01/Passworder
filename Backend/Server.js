@@ -1,4 +1,5 @@
 const express = require('express');
+const mongoose = require('mongoose')
 const connectDB = require('./DB/Connection')
 const passwordRoutes = require('./Routes/PasswordRoutes');  // Import the password routes
 
